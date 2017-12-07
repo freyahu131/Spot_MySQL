@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spots</string>
+
+    <string name="text_News">News</string>
+
+    <string name="text_SpotList">Spot List</string>
+    <string name="text_SpotDetail">Spot Details</string>
+    <string name="text_SpotInsert">Insert Spot</string>
+    <string name="text_SpotUpdate">Update Spot</string>
+    <string name="text_SpotDelete">Delete Spot</string>
+
+    <string name="col_Name">Name</string>
+    <string name="col_PhoneNo">Phone No</string>
+    <string name="col_Address">Address</string>
+
+    <string name="msg_NoNewsFound">No news found</string>
+    <string name="msg_NoSpotsFound">No spots found</string>
+    <string name="msg_MapNotDisplayed">Map cannot be displayed</string>
+    <string name="msg_ClickAgain">Please click the item again</string>
+    <string name="msg_NoNetwork">no network connection available</string>
+    <string name="msg_InsertSuccess">Insert successfully</string>
+    <string name="msg_InsertFail">Insert fail</string>
+    <string name="msg_UpdateSuccess">Update successfully</string>
+    <string name="msg_UpdateFail">Update fail</string>
+    <string name="msg_DeleteSuccess">Delete successfully</string>
+    <string name="msg_DeleteFail">Delete fail</string>
+    <string name="msg_NameIsInvalid">Spot name is invalid</string>
+    <string name="msg_NoImage">No image</string>
+    <string name="msg_NoDataFound">No data found</string>
+    <string name="text_NoCameraApp">no camera apps found</string>
+
+    <string name="text_Insert">Insert</string>
+    <string name="text_Update">Update</string>
+    <string name="text_Delete">Delete</string>
+    <string name="text_SpotId">ID Number</string>
+    <string name="text_SpotName">Name</string>
+    <string name="text_btCancel">Cancel</string>
+    <string name="text_TakePicture">Take Picture</string>
+    <string name="text_PickPicture">Pick Picture</string>
+    <string name="text_SpotPhone">Phone</string>
+    <string name="text_SpotAddress">Address</string>
+    <string name="text_NotGranted">not granted</string>
+    <string name="text_Spot">Spot</string>
+    <string name="text_Open">Open</string>
+    <string name="text_Close">Close</string>
+    <string name="text_Exit">Exit</string>
+    <string name="msg_WantToExit">Do you really want to exit?</string>
+    <string name="text_Yes">Yes</string>
+    <string name="text_No">No</string>
+
+
+</resources>

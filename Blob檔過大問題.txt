@@ -1,0 +1,25 @@
+問題1：
+MySQL匯入資料時要注意資料是否過大問題(例如：圖檔)：
+
+解決方法如下（更改完設定一定要重啟MySQL）：
+Windows：將「my.ini」(C:\ProgramData\MySQL\MySQL Server 5.x\my.ini)內容「max_allowed_packet」的值加大，例如改成「max_allowed_packet=500M」
+
+Mac OS是my.cnf，也可透過Workbench修改下列設定：
+1. 開啟Workbench > Server > Options File > Networking > max_allowed_packet > 改成500M
+2. 開啟Workbench > Server > Options File > InnoDB > innodb_log_file_size > 改成256M
+
+phpMyAdmin參考下列文章：
+https://timmyomahony.com/blog/MAMP-phpmyadmin-and-big-database-imports-errors-or-timeouts/
+
+
+問題2：
+新增資料進入table的BLOB欄位內發生資料過大問題，錯誤訊息「Data truncation: Data too long for column ‘image’ at row 1」
+
+解決方法：
+將BLOB欄位改成較大型別：
+TINYBLOB   :     maximum length of 255 bytes  
+BLOB       :     maximum length of 65,535 bytes  
+MEDIUMBLOB :     maximum length of 16,777,215 bytes  
+LONGBLOB   :     maximum length of 4,294,967,295 bytes
+
+
